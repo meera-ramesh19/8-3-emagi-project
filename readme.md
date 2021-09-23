@@ -4,6 +4,8 @@ Emojis + magic = Emagi! ⭐️
 
 In this project, you'll build an interactive application that will make use of all kinds of emojis.
 
+![Image of the first part of the Emagi project working.](./assets/example.gif)
+
 ## Getting started
 
 ### Installation
