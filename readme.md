@@ -20,6 +20,8 @@ In this project, you'll build an interactive application that will make use of a
 
 You will make use of an API in this project that will return a list of emojis as well as detailed information about them. An example response is below.
 
+`GET` https://emagi-server-8-3.herokuapp.com/api/emojis
+
 ```js
 {
   emojis: [
