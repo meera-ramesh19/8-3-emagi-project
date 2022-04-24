@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro:wght@200;400;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro:wght@200;400;900&display=swap');
 
 :root {
   --color-dark: #191716;
@@ -12,7 +12,7 @@ html,
 body {
   background: var(--color-light);
   color: var(--color-dark);
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Header */
@@ -62,7 +62,7 @@ main button {
 }
 
 main label {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   font-weight: 900;
 }
@@ -75,7 +75,7 @@ main textarea {
 }
 
 main textarea {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 10px;
   width: 50%;
 }
@@ -133,6 +133,19 @@ footer p {
 footer a,
 footer a:hover {
   color: var(--color-yellow);
+}
+.hidden {
+  display: none;
+}
+
+.error {
+  color: white;
+  background-color: hsl(0, 31%, 56%);
+}
+
+.success {
+  color: darkcyan;
+  background-color: hsl(153, 23%, 46%);
 }
 
 /* Media queries */
